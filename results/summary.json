@@ -1,0 +1,26 @@
+{
+  "batches": 388,
+  "valid_records": 2160,
+  "cleaning": {
+    "received": 2162,
+    "duplicates": 2,
+    "missing_values": 6,
+    "invalid_values": 6
+  },
+  "events_total": 23,
+  "events_by_rule": {
+    "ZSCORE_SPIKE": 20,
+    "CO2_WARNING": 1,
+    "CO2_CRITICAL": 1,
+    "TEMP_OUT_OF_RANGE": 1
+  },
+  "wall_time_s": 16.9,
+  "detection_vs_ground_truth": {
+    "injected_spikes": 18,
+    "detected_true": 18,
+    "missed": 0,
+    "false_alarms": 2,
+    "precision": 0.9,
+    "recall": 1.0
+  }
+}
